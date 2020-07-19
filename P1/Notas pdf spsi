@@ -1,0 +1,73 @@
+////Punto 1 y 2
+
+Partiremos de un archivo binario de 1024 bits, todos
+ellos con valor 0 . Para hacer referencia al mismo voy
+a suponer que se llama input.bin , pero podeis dar
+el nombre que os convenga.
+
+
+dd if=/dev/zero of=input.bin  bs=128  count=1
+
+
+
+Creamos otro archivo binario del mismo tamano, que
+contenga un unico bit con valor 1 dentro de los pri-
+meros 40 bits y todos los demas con valor 0 . Me
+referire a este archivo como input1.bin
+
+
+
+usando ghex creo input1.bin
+
+
+////////////Punto 3
+
+
+debil, 0x0101010101010101
+
+semidebil, 
+
+fuerte 0E329232EA6D0D73
+
+
+
+
+
+Cifrad input.bin con DES en modos ECB , CBC y OFB
+usando como claves una debil y otra semidebil, con
+vector de inicializacion a vuestra eleccion, y explicad
+los diferentes resultados.
+
+
+
+//Punto 4
+
+Cifrad input.bin e input1.bin con DES en modo
+ECB y clave a elegir, pero no debil ni semidebil. Explicad la forma de los resultados obtenidos.
+
+
+////Punto 5
+
+
+Cifrad input.bin e input1.bin con DES en modo
+CBC , clave y vector de inicializacion a elegir. Com-
+parad con los resultados obtenidos en el apartado anterior.
+
+////Punto 6
+
+Repetid los puntos 4 a 5 con AES-128 y AES-256 .
+Cifrad input.bin con AES-192 en modo OFB , clave
+y vector de inicializacion a elegir. Supongamos que
+la salida es output.bin .
+Descifra output.bin utilizando la misma clave y
+vector de inicializacion que en 7.
+Vuelve a cifrar output.bin con AES-192 en modo
+OFB , clave y vector de inicializaci
+on del punto 7.4
+Compara el resultado obtenido con el punto 8, ex-
+plicando el resultado.
+10. Presentad la descripcion de otro cifrado simetrico
+que aparezca en vuestra implementacion de OpenSSL .
+11. Repetid los puntos 3 a 5 con el cifrado presentado en
+el punto 10 (el 3 si el cifrado elegido tuviese claves
+debiles o semidebiles).
