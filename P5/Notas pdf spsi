@@ -1,0 +1,84 @@
+1
+
+req -config "C:\Users\Miguemc\Desktop\ca\openssl.cnf" -key "C:\Users\Miguemc\Desktop\ca\private\miguelDSA.pem" -text -out "C:\Users\Miguemc\Desktop\ca\req.pem"
+
+empiezo b= 1
+
+ 1 - 1.2
+
+ 1 - 1.3
+empiezo b= 2
+
+ 2 - 4.2
+
+ 2 - 2.8
+empiezo b= 3
+
+ 3 - 3.7
+
+ 3 - 7.4
+empiezo b= 4
+
+ 4 - 8.0
+
+ 4 - 23.3
+empiezo b= 5
+
+ 5 - 28.3
+
+ 5 - 41.1
+empiezo b= 6
+
+ 6 - 52.9
+
+ 6 - 35.8
+empiezo b= 7
+
+ 7 - 156.7
+
+ 7 - 91.5
+empiezo b= 8
+
+ 8 - 236.7
+
+ 8 - 267.3
+empiezo b= 9
+
+ 9 - 695.6
+
+ 9 - 588.6
+empiezo b= 10
+
+ 10 - 918.4
+
+ 10 - 1155.6
+empiezo b= 11
+
+ 11 - 2665.1
+
+ 11 - 1736.7
+empiezo b= 12
+
+ 12 - 6067.1
+
+ 12 - 3657.3
+empiezo b= 13
+
+ 13 - 14864.5
+
+ 13 - 6380.9
+empiezo b= 14
+
+ 14 - 12141.4
+
+ 14 - 16367.3
+empiezo b= 15
+
+ 15 - 42624.8
+
+ 15 - 35610.8
+empiezo b= 16
+
+ 16 - 69091.9
+
+ 16 - 124801.1
